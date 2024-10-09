@@ -1,16 +1,18 @@
 .Zim-forms-for-world-domination{
     flex-direction: row;
-    gap: 16px; 
+    gap: 10px; 
 }
 
-h1{
-
-}
-
-h2 {
+h2{
 
 }
 
-p{
+a { 
+    justify-content: flex-start;
+
+}
+/* you want to place your form in between Zim and the left side of the screen */
+.Zim {
+    align-items: flex-end
 
 }
