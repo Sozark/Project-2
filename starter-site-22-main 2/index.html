@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Responsive Layouts</title>
+  <link rel="icon" href="img/Zimfavicon_io/favicon.ico" type="/img/Zimfavicon.ico">
   <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,27 +26,45 @@
 <body>
   <!--This is the header you can put the about section here too but play around with where you would like to place it-->
   <header>
-    
+    <img class= "logo" src="img/Zim's Logo.jpg" alt>
+    <nav class= "main nav">
     <h1>Welcome to Zim's form</h1>
-    <p>This will not be used for nefarious purposes.</p>  
+    <p>This will not be used for nefarious purposes.</p> 
 
   </header>
 
   <div class="topnav">
+
+  <nav>
+    <a class="" href="">About Zim</a>
+    <a href="">Why make this form</a>
+    <a href="">Submit form</a>
+    <a href="">Contact</a> 
+  </nav>
   
-  <a class="about Zim" href="">About Zim</a>
-  <a href="Why make this form">Why make this form</a>
-  <a href="submit form">Submit form</a>
-  <a href="contact">Contact</a> 
-  <img class= "Zim" src="img/Human Zim.jpg">  <!--This is the first image -->
-  <main class= "Zim-forms-for-world-domination">
+  <div class="mobile-nav-wrapper">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      MENU
+    </a>
+    <nav id="myLinks" class="mobile-main-nav">
+      <a href="">About</a>
+      <a href="">Contact</a>
+      <a href="">Work</a>
+      <a href="">Another page with long text</a>
+      <a href="">Another page with long text</a>
+      <a href="">Another page with long text</a>
+    </nav>
+  </div>
+  
+    
      
   </div>
 
   <div class="forum">
+    <img class= "Zim" src="img/Human Zim.jpg">  <!--This is the first image -->
 <!--The signup form will need to be readjusted and placed between Zim and the left side of the screen-->
     <h1>Sign Up</h1>
-        <p>Please fill this so I can track my data.</p>
+        <p>Please fill this in order to create an account.</p>
         <hr>
 
         <label for="email"><b>Email</b></label>
@@ -55,18 +74,21 @@
         <input class="form-input" id="psw" type="password" placeholder="Enter Password" name="psw" required>
 
         <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me
+        <input type="checkbox" checked="checked" name="remember"> Remember me
         </label>
 
         <div class="form-buttons">
           <button type="button" class="cancelbtn">Cancel</button>
           <button type="submit" class="signupbtn">Sign Up</button>
         </div>
+
       </div>
+
     </form>
 
   </div>
-   
+   <!--Place information on the survey form here-->
+    <h2>Survey Form</h2>
        
     
   </main>
