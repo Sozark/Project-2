@@ -1,9 +1,9 @@
 header{
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+  padding: 60px;
+  text-align: center;
+  background: #9e195e;
+  color: white;
+  font-size: 30px;
 }
 
 
@@ -39,9 +39,18 @@ h2{
 
 }
 
-a { 
-    justify-content: flex-start;
+a:link, a:visited { 
+    text-align: center; 
+    color: #ffa5d4;   
 
+}
+
+a:hover {
+  color: #8bb468;
+}
+
+a:active {
+  color: #fd3da0;
 }
 /* you want to place your form in between Zim and the left side of the screen */
 .Zim {
