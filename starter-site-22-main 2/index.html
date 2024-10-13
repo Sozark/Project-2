@@ -70,7 +70,8 @@
   <div>
    <h1>Sign Up</h1>
         <p>Please fill this in order to create an account.</p>
-
+        <hr>
+        <form action="Sign up"></form>
         <label for="email"><b>Email</b></label>
         <input class="form-input" id="email" type="email" placeholder="Enter Email" name="email" required>
 
@@ -88,20 +89,127 @@
 
   </div>
 
-  <img class= "Zim" src="img/Human Zim.jpg">  <!--This is the first image -->
+     <!--You will need to change the code under this statement because it is not yours and you must edit it.-->
   
    <!--Place information on the survey form here-->
     <h1>Survey Form</h1>
-       
+    <form id="my-form">
+      <!-- Details -->
+      <div class="form-control">
+        <label for="name" id="label-name">
+            Name
+        </label>
+        <!-- Input Type Text -->
+        <input type="text" id="name"
+          placeholder="Enter your name" />
+      </div>
+      <div class="form-control">
+        <label for="email" id="label-email">
+          Email
+        </label>
+
+        <!-- Input Type Email-->
+        <input type="email" id="email"
+          placeholder="Enter your email" />
+      </div>
+
+      <div class="form-control">
+        <label for="age" id="label-age">
+          Age
+        </label>
+
+        <!-- Input Type Text -->
+        <input type="text" id="age"
+          placeholder="Enter your age" />
+      </div>
+
+      <div class="form-control">
+        <label for="role" id="label-role">
+          Which option best describes you?
+        </label>
+    <!-- Dropdown options -->
+    <select name="role" id="role">
+      <option value="adult">Adult</option>
+      <option value="child">Child</option>
+      <option value="baby"> Baby</option>
+      <option value="alien">Alien</option>
+    </select>
+</div>
+
+<div class="form-control">
+  <label>
+      Would you think Zim is from the local area?
+  </label>
+
+  <!-- Input Type Radio Button -->
+  <label for="recommed-1">
+      <input type="radio" id="recommed-1" 
+             name="recommed">Yes
+        </input>
+  </label>
+  <label for="recommed-2">
+      <input type="radio" id="recommed-2" 
+             name="recommed">No
+        </input>
+  </label>
+  <label for="recommed-3">
+      <input type="radio" id="recommed-3" 
+             name="recommed">Maybe
+        </input>
+  </label>
+</div>
+
+<div class="form-control">
+  <label>Favorite Earth foods
+    <small>(Check all that apply)</small>
+</label>
+<!-- Input Type Checkbox -->
+<label for="inp-1">
+    <input type="checkbox" name="inp">Meat
+      </input>
+  </label>
+<label for="inp-2">
+    <input type="checkbox" name="inp">Fish
+      </input>
+</label>
+<label for="inp-3">
+    <input type="checkbox" name="inp">Fruits
+      </input>
+</label>
+<label for="inp-4">
+    <input type="checkbox" name="inp">Vegstables
+      </input>
+</label>
+<label for="inp-5">
+    <input type="checkbox" name="inp">Candy
+      </input>
+</label>
+<label for="inp-6">
+    <input type="checkbox" name="inp">Ice Cream
+      </input>
+</label>
+</div>
+
+<div class="form-control">
+  <label for="comment">
+      Anything you would like to suggest?
+  </label>
+
+  <!-- multi-line text input control -->
+  <textarea name="comment" id="comment" 
+            placeholder="Enter your comment here">
+  </textarea>
+</div>
+
+<!-- Multi-line Text Input Control -->
+<button type="submit" value="submit">
+  Submit
+</button>
+</form>
     
   </main>
-  
-
-
-
-
-
   <script src="js/main.js"></script>
+  <img class= "Zim" src="img/Human Zim.jpg">  <!--This is the first image -->
 </body>
 
 </html>
