@@ -1,5 +1,5 @@
 header{
-  padding: 60px;
+  padding: 40px;
   text-align: center;
   background: #9e195e;
   color: white;
@@ -55,9 +55,42 @@ a:active {
 }
 
 .logo {
-    max-width: 120px;
+    max-width: 180px;
+} 
+
+#label-name{
+     padding-right: 2px;
 }
 
-.forum{
-     
+#label-email{
+  padding-right: 2px; 
+}
+
+#label-age{
+  padding-right: 2px; 
+}
+
+#email {
+  padding-right: 2px; 
+}
+
+#psw{
+  padding-right: 2px; 
+}
+
+#label-role{
+  padding-right: 2px; 
+}
+
+h1{
+  margin: 20px; 
+}
+
+
+div{
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-bottom: 5px;
 }
