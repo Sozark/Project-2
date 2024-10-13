@@ -47,14 +47,17 @@ a:active {
 }
 
 .hero-image{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+
 }
 /* you want to place your form in between Zim and the left side of the screen */
 .Zim {
-    align-items: center;
+    align-items: flex-end;
 }
 
 .logo {
     max-width: 120px;
 }
 
+.forum{
+     
+}
