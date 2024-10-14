@@ -149,6 +149,10 @@ button, input, optgroup, select, textarea {
   text-align: center;
   margin: 0.625rem;
 }
+
+.hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)) url(img src="img/Human Zim.jpg");
+}
 .hero-title {
   font-size: 3rem;
   font-weight: 600;
